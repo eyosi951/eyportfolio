@@ -1,0 +1,110 @@
+ @import '../../vars.css';
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.contactLeft{
+    flex-basis: 35%;
+    margin-top: 47px;
+    margin-left: 47px;
+    margin-bottom: 20px;
+}
+h1{
+    color: hsla(240, 63%, 56%, 0.842);
+}
+.contactRight{
+    flex-basis: 60%;
+}
+.contactLeft p {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.contactLeft h4{
+    font-size: 30px;
+    color: aqua;
+}
+.firstIcons{
+   color: aqua;
+   padding: 1px;
+   font-size: 25px;
+   margin-top: 10px;
+}
+.secondIcons{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.secondIcons a{
+    transition: transform 0.3s ease;
+}
+.secondIcons a:hover{
+    text-decoration: none;
+    transform: translateY(-5px);
+}
+.contactRight button[type = submit]{
+    background-color:  aqua;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 6px;
+    padding: 10px 24px;
+    text-align: center;
+   margin-left: 35%;
+   margin-right: 29%;
+   transition: .3s ease-in-out;
+   cursor: pointer;
+}
+.contactRight button[type = submit]:hover{
+    background-color: hsla(180, 100%, 50%, 0.651);
+}
+.contactRight button[type = submit]:active{
+    background-color: aqua;
+}
+.contactRight{
+    align-items: center;
+    justify-content: center;
+    margin-top: 37px;
+    margin-bottom: 30px;
+}
+
+.contactRight form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   max-width: 550px;
+}
+form input, form textarea{
+   border: 0;
+   outline: none;
+   background: #19376d;
+   padding: 15px;
+   font-size: 18px;
+   border-radius: 8px;
+   color: #fff;
+}
+form textarea{
+  resize: none;
+}
+.copyRight{
+    color: rgba(17, 109, 109, 0.774);
+    margin-bottom: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+footer {
+    width: 100vw;
+}
+.subTitle{
+    letter-spacing: 1.2px;
+    font-size: 20px;
+}
+

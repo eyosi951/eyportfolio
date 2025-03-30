@@ -1,0 +1,61 @@
+@import '../../vars';
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px; 
+    align-items: center; 
+    justify-content: center;
+}
+.imgContainer{
+  display: flex;
+  flex-direction: column;
+  border: 5px solid var( --color-primary);
+  border-radius: 10px;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 0 4px #fff;
+  overflow: hidden;
+}
+.imgContainer:hover{
+    background-size: 100%, 100%;
+
+}
+.imgContainer img{
+    width: 200px;
+    border-radius: 7px;
+    transition:  transform 0.3s ease-in-out;
+}
+.imgContainer img:hover{
+    transform: scale(1.5);
+}
+h1{
+ color: var(--color-text);
+ text-align: center;
+ margin-top: 30px;
+ font-size: 42px;
+ letter-spacing: 1.2px;
+}
+h2{
+    color: hsla(219, 62%, 20%, 0.568);
+    text-shadow: 0 0 1px #fff;
+}
+p{
+    color: #fff;
+}
+
+@media screen and (max-width: 830px)  {
+     .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .imgContainer img{
+        width: 150px;
+    }
+     
+}
