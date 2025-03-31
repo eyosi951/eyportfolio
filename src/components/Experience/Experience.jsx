@@ -10,12 +10,12 @@ export const Experience =()=>{
              <div className={styles.imgContainer}>
                 <img src="html.jpg" alt="html-icon"/>
                 <h2 className={styles.title}>HTML</h2>
-                <p className="description">Experianced in html</p>
+                <p className="description">Experienced in html</p>
              </div>
              <div className={styles.imgContainer}>
                 <img src="css.png" alt="css-icon"/>
                 <h2 className={styles.title}>CSS</h2>
-                <p className="description">Expeienced in css</p>
+                <p className="description">Experienced in css</p>
              </div>
              <div className={styles.imgContainer}>
                 <img src="javaScript.png" alt="js-icon"/>
